@@ -57,8 +57,8 @@ function timeStapToTime(time) {
     time *= 1000
   }
   const date = new Date(time)
-  console.log('你是大笨猪');
-  console.log('你是大笨猪');
+  let arr = [1, 3, 5, 7, 9, 2, 4, 6, 8];
+  const newArr = arr.map(item => item*2);
   return getNowTime(date)
 }
 
