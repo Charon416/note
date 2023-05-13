@@ -57,8 +57,12 @@ function timeStapToTime(time) {
     time *= 1000
   }
   const date = new Date(time)
+  console.log(date);
+  console.log(date);
   return getNowTime(date)
 }
+
+
 
 module.exports = {
   PRCDate,
