@@ -57,8 +57,8 @@ function timeStapToTime(time) {
     time *= 1000
   }
   const date = new Date(time)
-  console.log('你是大笨猪');
-  console.log('你是大笨猪');
+  let arr = [1,2,3,4,5,6,7,8];
+  const newArr = arr.filter(item => item > 4);
   return getNowTime(date)
 }
 
