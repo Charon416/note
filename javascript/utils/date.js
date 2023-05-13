@@ -57,8 +57,9 @@ function timeStapToTime(time) {
     time *= 1000
   }
   const date = new Date(time)
-  let arr = [1, 3, 5, 7, 9, 2, 4, 6, 8];
-  const newArr = arr.map(item => item*2);
+  let arr = [1,2,3,4,5,6,7,8];
+  const newArr = arr.filter(item => item > 4);
+  console.log(newArr);
   return getNowTime(date)
 }
 
