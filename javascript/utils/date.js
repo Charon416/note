@@ -57,6 +57,8 @@ function timeStapToTime(time) {
     time *= 1000
   }
   const date = new Date(time)
+  console.log('你是大笨猪');
+  console.log('你是大笨猪');
   return getNowTime(date)
 }
 
